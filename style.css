@@ -1,0 +1,60 @@
+body {
+	background-image: url('back.jpg');
+	background-size: cover;
+	color: silver;
+	font-family: 'Righteous', cursive;
+}
+
+
+section {
+	margin: 5% auto;
+	width: 250px;
+    background-color: transparent;
+    padding: 15px;
+    border: 2px solid hsla(0,0%,100%,.3);
+    color: #fff;
+    box-shadow: inset 0 0 40px hsla(0, 0%, 100%, 0.81);
+}
+
+.icon img {
+	height: 100px;
+	width: 100px;
+}
+
+.unites {
+	display: flex;
+	justify-content: space-around;
+}
+
+section > div {
+
+	margin-top: 15px;
+	text-align: center;
+}
+
+button {
+	box-shadow: inset 0 0 40px hsla(0, 0%, 100%, 0.81);
+	border: 2px solid hsla(0,0%,100%,.3);
+	background: transparent;
+    color: #fff;
+    padding: 12px 25px;
+    font-size: 30px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Righteous', cursive;
+}
+
+button:hover {
+	background-color: hsla(269, 34%, 24%, 0.65);
+	transform: scale(1.1);
+	box-shadow: 0 0 13px 5px rgba(181,192,178,0.5);
+	color: #fff;
+}
+
+.temp {
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	color: hsla(269, 34%, 24%, 0.65);
+}
